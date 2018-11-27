@@ -1,0 +1,55 @@
+ls
+ls -a
+mkdir 389
+cd 389
+mkdir cli
+pwd
+cd cli && pwd > text.txt
+cd ..
+ln -s txt 389/cli/text.txt
+ln -s txt 389/cli/
+cat txt 
+cat text.txt 
+cat text.txt > catText.txt
+ls -a
+cat catText.txt 
+rm catText.txt 
+ls
+text.txt
+cd text.txt
+touch 389/cli/fstab.txt
+ls 389/cli/
+cd 389/cli/
+cat txt 
+cd ~
+grep 'reference' 389/cli/fstab.txt 
+grep 'reference' 389/cli/fstab.txt > 389/cli/out.txt
+less 389/cli/out.txt
+cd 389/cli && touch myls
+echo "ls -a" > myls
+chmod +x myls
+myls
+./myls
+./myls >> out.txt
+date;who > who.txt
+cd ..
+cd ~
+ln -s cli-symlink 389/cli/
+man -k "less"
+man -k "less" > 389/cli/less.txt
+less 389/cli/less.txt
+cd 389/cli/ && wget http://politespider.com/images/mozilla_logo.jpg 
+man -k "wget"
+cd ../../
+tar -cvf archive_name.tar 389/
+tar -cvzf archive_name.tar.gz 389/
+ls -a
+mv archive_name.tar 389.tar && mv archive_name.tar.gz 389.tar.gz
+ls archive_name.tar.gz 
+ls archive_name.tar.gz/
+cd 389/tmp
+tar -xzvf ~/389_tar.tar.gz -C 
+ls -r
+ls -R
+tree
+exit
