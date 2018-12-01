@@ -1,0 +1,43 @@
+Emacs Worksheet:
+
+#+TITLE: 		389COM – Emacs  
+#+AUTHOR: 		Zack Teeling 
+#+EMAIL: 		teelingz@coventry.ac.uk 
+#+DATE: 		01/12/18 
+#+LANGUAGE:	English
+
+Experience with the course:
+I have really enjoyed the course thus far. Interesting lectures and coursework
+
+Expectations of the course:
+I would expect this module to be very interesting and full of research. Open source is something I have never heard of, so to be able to be taught about this subject is amazing.
+
+Table:
+Site 	Description
+Google	A place to search for information
+Coventry University	A place for academic learning
+
+Hyperlinks
+[[https://www.bbc.co.uk/sport] [bbcsport]]
+[[https://news.sky.com/uk] 	     [sky news]]
+Image
+
+Python
+Print (“389COM – Open Source Development”)
+389COM – Open Source Development
+Buffer Diagram 1
++----------+      +-------------+         +------------+         +----------+
+|  cRED    |      |    cBLA     |         |   cBLU     |         |  cGRY    |
+| check in |----->+ show options+-------->+add details +-------->+  End	 |
++----------+      +-------------+         +------------+         +----------+
+Buffer Diagram 2
++----------+      +-------------+         +------------+         +----------+
+|  cWTE    |      |    cWTE     |         |   cWTE     |         |  cPUR    |
+| Foo      |----->+    Bar      +-------->+    Baz     +<--------+  Moo	 |
++----------+      +-------------+         +------+-----+         +----------+
+   					       |
+                       			       v
+                  +-------------+				      +-------------+
+                  |  cWTE       |				      |  cBLU       |
+                  | Goo         |        			      |  Shoo       |
+                  +-------------+				      +-------------+
